@@ -69,7 +69,7 @@ body {
 
 /* Main heading */
 h1 {
-	font-family: serif;
+	font-family: 'Merriweather' serif;
 	font-size: 84px;
 	line-height: 1.1;
 	font-weight: normal;
@@ -81,7 +81,7 @@ h1 {
 
 /* Small headings */
 h2 {
-	font-family: serif;
+	font-family: 'Merriweather' serif;
 	font-size: 26px;
 	color: #3434b0;
 	line-height: 1.5;
@@ -90,7 +90,7 @@ h2 {
 
 /* Smaller headings */
 h3 {
-	font-family: serif;
+	font-family: 'Merriweather' serif;
 	font-size: 42px;
 	color: #000;
 	letter-spacing: -1px;
