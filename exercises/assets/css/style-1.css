@@ -58,6 +58,7 @@ select {
 	}
 }
 h1 {
+	font-family: 'Ephesis', serif;
 	font-size: 84px;
 	text-align: center;
 	font-weight: normal;
@@ -67,6 +68,7 @@ h1 {
 }
 
 h2 {
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 36px;
 	margin-bottom: 4px;
 	text-align: left;
@@ -74,6 +76,7 @@ h2 {
 }
 
 h3 {
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 24px;
 	margin-bottom: 4px;
 	text-align: left;
@@ -81,8 +84,8 @@ h3 {
 }
 
 p {
-	font-size: 18px;
-	font-family: sans-serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
 	line-height: 1.6;
 	margin-bottom: 20px;
 	color: darkslateblue;
@@ -95,4 +98,5 @@ body {
 }
 img {
 	border-radius: 10px;
+	margin-bottom: 34px;
 }
