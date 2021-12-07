@@ -140,9 +140,7 @@ body {
 	font-family: var(--global-font);
 }
 
-.theme-one {
-	background-color: var(--orange-300);
-}
+
 .theme-one h2 {
 	color: var(--white-000);
 }
@@ -203,25 +201,25 @@ body {
 .theme-one a:visited {
 	background-color: var(--orange-100);
 }
-. .theme-one a:link {
+.theme-one a:link {
 	background-color: var(--orange-100);
 }
 .theme-one a:visited {
 	background-color: var(--orange-100);
 }
-. .theme-one a:link {
+.theme-one a:link {
 	background-color: var(--white-000);
 }
 .theme-one a:visited {
 	background-color: var(--white-000);
 }
-. .theme-one a:link {
+.theme-one a:link {
 	background-color: var(--orange-300);
 }
 .theme-one a:visited {
 	background-color: var(--orange-300);
 }
-. .theme-one a:focus {
+.theme-one a:focus {
 	background-color: var(--orange-100);
 }
 .theme-one a:hover {
@@ -236,8 +234,8 @@ body {
 .theme-one a:visited {
 	background-color: var(--orange-300);
 }
-. .theme-one a:focus {
-	background-color: var(--orange-100);
+.theme-one a:focus {
+background-color: var(--orange-100);
 }
 .theme-one a:hover {
 	background-color: var(--orange-100);
@@ -245,9 +243,7 @@ body {
 .theme-one a:active {
 	background-color: var(--orange-100);
 }
-.theme-two {
-	background-color: var(--gray-100);
-}
+
 
 undefined .theme-four .upper-label {
 	color: var(--white-000);
@@ -256,6 +252,7 @@ undefined .theme-four .upper-label {
 .theme-four .col-1 h3 {
 	color: var(--green-100);
 }
+
 
 .theme-four .col-4 h3 {
 	color: var(--white-000);
@@ -272,9 +269,19 @@ undefined .theme-four .upper-label {
 	color: var(--green-100);
 }
 
-.theme-four {
-	background-color: var(--ontrend-500);
+.theme-one {
+	background-color: var(--orange-300);
 }
+.theme-two {
+	background-color: var(--yellow-100);
+}
+.theme-three{ background-color: var(--yellow-200);
+}
+.theme-four {
+	background-color: var(--orange-300);
+}
+
+
 .theme-four .col-4 figure.icon {
 	color: var(--white-000);
 }
@@ -285,6 +292,11 @@ undefined .theme-four .upper-label {
 }
 
 img {
-	width: 80px;
+	width: 800px;
 	height: 480px;
 }
+
+h1{ font-family: 'Italiana', serif;
+}
+h2{ font-family:  'Italiana', serif;}
+p{ font-family: 'Montserrat', sans-serif;}
