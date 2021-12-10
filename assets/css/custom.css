@@ -133,26 +133,33 @@
     --img-border: var(--gray-700);
 }
 
-
-header.hero-block h1 { color: var(--teal-200) }
-header.hero-block h2 { color: var(--teal-100) }
-
-
-
-.theme-one a.btn-ghost:focus { color: var(--teal-100) } 
-.theme-one a.btn-ghost:hover { color: var(--teal-100) }
-.theme-one a.btn-ghost:active { color: var(--teal-100) }
-.theme-one a.btn-ghost:focus { background-color: var(--black-000) }
-.theme-one a.btn-ghost:hover { background-color: var(--black-000) }
-.theme-one a.btn-ghost:active { background-color: var(--black-000) }
-.theme-one a.btn-ghost:link { border-color: var(--teal-200) }
-.theme-one a.btn-ghost:visited { border-color: var(--teal-200) }
-.theme-one .col-3 { background-color: var(--white-000) }
-.theme-one { background-color: var(--teal-100) }
-.theme-one.col-borders .col-3 { border-color: var(--white-000) }
-
-
-
 /* Global font */
 body { font-family: var(--global-font) }
 
+/* PAST THE CSS HERE */
+
+/* Top Menu */
+.container-menu a:link,
+.container-menu a:visited { color: var(--pink-900) }
+.container-menu a:focus,
+.container-menu a:hover,
+.container-menu a:active { color: var(--ontrend-600) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--black-000) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { background-color: var(--white-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { color: var(--black-000) }
+.container-menu.menu-desktop { background-color: var(--white-000) }
+.container-menu.menu-mobile { background-color: var(--gray-200) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-200) }
+
+/* icons */
+.container .fab {
+    padding-left: 05px;
+    font-size: 45px;
+}

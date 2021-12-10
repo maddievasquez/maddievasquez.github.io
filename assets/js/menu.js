@@ -1,6 +1,6 @@
 // Check initial viepwort width
 document.addEventListener("DOMContentLoaded", checkViewportWidth);
-
+console.log(23232);
 function checkViewportWidth() {
     if (document.querySelector('.container-menu')) {
         const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
